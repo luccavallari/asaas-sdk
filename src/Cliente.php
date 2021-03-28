@@ -78,7 +78,12 @@ class Cliente
 
     // Retorna os dados do cliente de acordo com o Email
     public function getByEmail($email){
-        $option = 'limit=1&email=' . $email;
+        $option = '?limit=1&email=' . $email;
+        return $this->http->get('/customers', $option);
+    }
+	    // Retorna os dados do cliente de acordo com o CPFCNPJ
+    public function getBycpfCnpj($cpfCnpj){
+        $option = '?limit=1&cpfCnpj=' . $cpfCnpj;
         return $this->http->get('/customers', $option);
     }
 
