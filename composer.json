@@ -1,5 +1,11 @@
 {
   "name": "luccavallari/asaas-sdk",
+  "repositories": [
+        {
+            "type": "url",
+            "url": "https://github.com/luccavallari/asaas-sdk"
+        }
+    ],
   "type"       : "library",
   "description": "Asaas.com PHP API Wrapper",
   "keywords"   : ["Asaas", "API", "Payment SaaS", "Credit Card", "Boleto"],
