@@ -1,8 +1,8 @@
 <?php
 
-namespace CodePhix\Asaas;
+namespace Luccavallari\Asaas;
 
-use CodePhix\Asaas\Connection;
+use Luccavallari\Asaas\Connection;
 
 class Cobranca {
     public $http;

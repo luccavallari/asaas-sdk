@@ -1,6 +1,6 @@
 <?php
 
-namespace CodePhix\Asaas;
+namespace Luccavallari\Asaas;
 
 
 class Assinatura {

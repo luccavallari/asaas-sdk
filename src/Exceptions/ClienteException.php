@@ -1,6 +1,6 @@
 <?php
 
-namespace CodePhix\Asaas\Exceptions;
+namespace Luccavallari\Asaas\Exceptions;
 
 class ClienteException {
 

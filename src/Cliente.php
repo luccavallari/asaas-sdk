@@ -1,9 +1,9 @@
 <?php
 
-namespace CodePhix\Asaas;
+namespace Luccavallari\Asaas;
 
-use CodePhix\Asaas\Connection;
-use CodePhix\Asaas\Exceptions\ClienteException;
+use Luccavallari\Asaas\Connection;
+use Luccavallari\Asaas\Exceptions\ClienteException;
 use Exception;
 
 /**
@@ -86,6 +86,17 @@ class Cliente
         $option = '?limit=1&cpfCnpj=' . $cpfCnpj;
         return $this->http->get('/customers', $option);
     }
+	/*ajustar a busca por qualquer parametro */
+	public function buscaCliente($params){
+		if(!empty($params['error'])){
+            return $params;
+        }else{
+			  $option = '?limit=1&cpfCnpj=' . $cpfCnpj;
+        return $this->http->get('/customers', $option);
+			
+		}
+		
+	}
 
     // Insere um novo cliente
     public function create(array $dadosCliente){

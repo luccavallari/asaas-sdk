@@ -1,15 +1,15 @@
 {
-  "name": "codephix/asaas-sdk",
+  "name": "luccavallari/asaas-sdk",
   "type"       : "library",
   "description": "Asaas.com PHP API Wrapper",
   "keywords"   : ["Asaas", "API", "Payment SaaS", "Credit Card", "Boleto"],
-  "homepage": "http://www.codephix.com",
+  "homepage": "https://www.multiplointeractive.com.br",
   "license": "MIT",
   "authors": [
     {
-      "name": "Max Alex",
-      "email": "contato@codephix.com.br",
-      "homepage": "https://www.codephix.com"
+      "name": "Lucas",
+      "email": "lucas@multiplointeractive.com.br",
+      "homepage": "https://www.multiplointeractive.com.br"
     }
   ],
   "require": {
@@ -17,7 +17,7 @@
   },
   "autoload": {
     "psr-4": {
-      "CodePhix\\Asaas\\": "src"
+      "luccavallari\\Asaas\\": "src"
     }
   }
 }

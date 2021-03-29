@@ -1,13 +1,13 @@
 <?php
 
-namespace CodePhix\Asaas;
+namespace Luccavallari\Asaas;
 
-use CodePhix\Asaas\Assinatura;
-use CodePhix\Asaas\Cliente;
-use CodePhix\Asaas\Cobranca;
-use CodePhix\Asaas\Notificacao;
-use CodePhix\Asaas\Transferencia;
-use CodePhix\Asaas\Webhook;
+use Luccavallari\Asaas\Assinatura;
+use Luccavallari\Asaas\Cliente;
+use Luccavallari\Asaas\Cobranca;
+use Luccavallari\Asaas\Notificacao;
+use Luccavallari\Asaas\Transferencia;
+use Luccavallari\Asaas\Webhook;
 
 class Asaas {
     
