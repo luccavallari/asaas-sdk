@@ -76,6 +76,6 @@ class Connection {
 
         return $response;
 
-    }
+    }	
     
 }
