@@ -67,6 +67,11 @@ class Cobranca {
     public function split(array $dadosCobranca){
 
     }
+	
+	// Retorna as parcelas da cobrança de acordo com o ID do installment 
+    public function getParcelas($id){
+        return $this->http->get('/payments?installment='.$id);
+    }
 
     // Atualiza os dados da cobrança
     public function update($id, array $dadosCobranca){
